@@ -6,7 +6,7 @@ Si no la pagó, muestra: "Tienes permiso, pero no has pagado. No puedes subir."
 Volviendo a la primera regla, Si no trajo el permiso, el programa simplemente muestra: "Sin la firma de tu representante no viajas. Te quedas en el colegio." 
 
 
-Algoritmo PaseoDelColegio
+Algoritmo APOLO
 	Definir permiso, pago Como Entero
 	
 	Escribir "¿Permiso? (1=Sí, 2=No)"; Leer permiso
