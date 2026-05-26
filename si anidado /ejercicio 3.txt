@@ -1,1 +1,25 @@
+El Paseo del Colegio (Anidado en el SÍ)
+El programa debe preguntar (Leer) al estudiante si trajo su permiso (Variable 1 para Sí, 2 para No).
+Si (Condicional) trajo el permiso, el tutor le pregunta (Leer otra vez) si ya pagó la cuota (Variable nueva, 1 para Sí, 2 para No).
+Si pagó la cuota, el programa muestra (Escribir): "¡Todo listo! Sube al bus."
+Si no la pagó, muestra: "Tienes permiso, pero no has pagado. No puedes subir."
+Volviendo a la primera regla, Si no trajo el permiso, el programa simplemente muestra: "Sin la firma de tu representante no viajas. Te quedas en el colegio." 
 
+
+Algoritmo PaseoDelColegio
+	Definir permiso, pago Como Entero
+	
+	Escribir "¿Permiso? (1=Sí, 2=No)"; Leer permiso
+	
+	Si permiso == 1 Entonces
+		Escribir "¿Pagó? (1=Sí, 2=No)"; Leer pago
+		
+		Si pago == 1 Entonces
+			Escribir "¡Todo listo! Sube al bus."
+		Sino
+			Escribir "Tienes permiso, pero no has pagado. No puedes subir."
+		FinSi
+	Sino
+		Escribir "Sin la firma de tu representante no viajas. Te quedas en el colegio."
+	FinSi
+FinAlgoritmo
